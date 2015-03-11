@@ -16,10 +16,9 @@ def recruitment(request):
     if request.method == 'POST':
         form = RecruitmentForm(request.POST)
         if form.is_valid():
+            
+            #Call save
             return HttpResponseRedirect('/thanks/')
-        else:
-            return form.errors
-            return render_to_response('app/recruitment.html', form.errors)
     else:
         form = RecruitmentForm()
 
