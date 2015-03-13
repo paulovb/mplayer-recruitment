@@ -1,6 +1,7 @@
 # Create your views here.
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render_to_response
+from app import tasks
 from app.core.recruitment_service import RecruitmentService
 from app.form.recruitment_form import RecruitmentForm
 

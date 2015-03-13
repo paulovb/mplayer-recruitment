@@ -1,6 +1,6 @@
 # coding: utf-8
 from app.models import Recruitment, Skills
-from django.core.mail import send_mail
+from app.tasks import send_mail_queue
 
 
 class RecruitmentService():
@@ -46,22 +46,23 @@ class RecruitmentService():
         skills = (self.IOS, self.ANDROID)
         return self._has_minimal_skills(skills, self.values)
 
-    def send_mail(self, email_list=None):
+    def send_mails(self, email_list=None):
 
         from_email = 'recruitment@meuspedidos.com.br'
 
         if self.is_front():
-            send_mail(self.MAIL_SUBJECT, self.MAIL_FRONT, from_email, email_list, fail_silently=False)
+            send_mail_queue.delay(from_email, email_list, self.MAIL_SUBJECT, self.MAIL_FRONT)
 
         if self.is_back():
-            send_mail(self.MAIL_SUBJECT, self.MAIL_BACK, from_email, email_list, fail_silently=False)
+            send_mail_queue.delay(from_email, email_list, self.MAIL_SUBJECT, self.MAIL_BACK)
 
         if self.is_mobile():
-            send_mail(self.MAIL_SUBJECT, self.MAIL_MOBILE, from_email, email_list, fail_silently=False)
+            send_mail_queue.delay(from_email, email_list, self.MAIL_SUBJECT, self.MAIL_MOBILE)
 
         if not self.is_front() and not self.is_back() and not self.is_mobile():
-            send_mail(self.MAIL_SUBJECT, self.MAIL_GENERIC, from_email, email_list, fail_silently=False)
+            send_mail_queue.delay(from_email, email_list, self.MAIL_SUBJECT, self.MAIL_GENERIC)
 
+    # TODO: Fazer um teste unitário com mock
     def save(self, form):
 
         name = form.cleaned_data['name']
@@ -77,4 +78,4 @@ class RecruitmentService():
 
             self.values[competency] = skill.value
 
-        self.send_mail([mail])
+        self.send_mails([mail])
