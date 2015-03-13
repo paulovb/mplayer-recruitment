@@ -1,6 +1,7 @@
 # Create your views here.
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render_to_response
+from app.core.recruitment_service import RecruitmentService
 from app.form.recruitment_form import RecruitmentForm
 
 
@@ -15,9 +16,9 @@ def thanks(request):
 def recruitment(request):
     if request.method == 'POST':
         form = RecruitmentForm(request.POST)
+
         if form.is_valid():
-            
-            #Call save
+            RecruitmentService().save(form)
             return HttpResponseRedirect('/thanks/')
     else:
         form = RecruitmentForm()
