@@ -1,3 +1,4 @@
+from django.utils import simplejson
 from piston.handler import BaseHandler
 from app.models import Recruitment, Skills
 
@@ -32,11 +33,13 @@ class RecruitmentHandler(BaseHandler):
         return json
 
     def create(self, request, *args, **kwargs):
-        recruitment = Recruitment(name=request.data['name'],
-                                  mail=request.data['mail'])
+        json = simplejson.loads(request.data)
+
+        recruitment = Recruitment(name=json['name'],
+                                  mail=json['mail'])
         recruitment.save()
 
-        skills = request.data['skills']
+        skills = json['skills']
         for skill in skills:
             Skills(name=skill['name'],
                    value=skill['value'],
