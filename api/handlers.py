@@ -35,6 +35,7 @@ class RecruitmentHandler(BaseHandler):
     def create(self, request, *args, **kwargs):
         json = simplejson.loads(request.data)
 
+
         recruitment = Recruitment(name=json['name'],
                                   mail=json['mail'])
         recruitment.save()

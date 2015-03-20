@@ -73,7 +73,8 @@ class RecruitmentService():
 
         for competency in RecruitmentService().get_skills():
             comp_form_name = ('comp_' + competency).lower()
-            skill = Skills(recruitment=recruitment, name=competency, value=form.cleaned_data[comp_form_name])
+            value = 0 if not form.cleaned_data[comp_form_name] else form.cleaned_data[comp_form_name]
+            skill = Skills(recruitment=recruitment, name=competency, value=value)
             skill.save()
 
             self.values[competency] = skill.value
