@@ -1,0 +1,3 @@
+/Users/gabriel/Projects/MPlayerRecruitment/Android/bin/Debug/Android.dll
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/bin/Debug/Core.Android.dll
+/Users/gabriel/Projects/MPlayerRecruitment/Android/bin/Debug/RestSharp.MonoDroid.dll

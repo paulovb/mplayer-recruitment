@@ -1,0 +1,10 @@
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/Mono.Dynamic.Interpreter.dll
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/RestSharp.MonoTouch.dll
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/mscorlib.dll
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Core.dll
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/Core.IOS.dll
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Xml.Linq.dll
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/IOS.exe
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Xml.dll
+/Users/gabriel/Projects/MPlayerRecruitment/IOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.dll

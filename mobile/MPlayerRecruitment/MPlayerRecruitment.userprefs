@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.ecazb6013974" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IOS/MasterViewController.cs">
+    <Files>
+      <File FileName="IOS/MasterViewController.cs" Line="1" Column="1" />
+      <File FileName="IOS/Main.cs" Line="1" Column="1" />
+      <File FileName="Android/MainActivity.cs" Line="28" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Core.IOS/Core.IOS.csproj</String>
+    <String>IOS/IOS.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Android MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

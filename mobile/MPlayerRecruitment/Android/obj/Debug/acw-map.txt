@@ -1,0 +1,2 @@
+Android.MainActivity;android.MainActivity
+Android.ThanksActivity;android.ThanksActivity

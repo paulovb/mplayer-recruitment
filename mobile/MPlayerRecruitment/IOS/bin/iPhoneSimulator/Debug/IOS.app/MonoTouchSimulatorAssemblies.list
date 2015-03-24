@@ -1,0 +1,8 @@
+mscorlib.dll
+System.dll
+System.Xml.dll
+System.Core.dll
+Mono.Dynamic.Interpreter.dll
+Core.IOS.dll
+RestSharp.MonoTouch.dll
+System.Xml.Linq.dll

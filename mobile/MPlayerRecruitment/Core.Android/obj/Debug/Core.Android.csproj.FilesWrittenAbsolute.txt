@@ -1,0 +1,13 @@
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/obj/Debug/Core.Android.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/bin/Debug/Core.Android.dll.mdb
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/bin/Debug/Core.Android.dll
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/bin/Debug/Core.Android.apk
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/obj/Debug/android/bin/Core.Android.apk
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/obj/Debug/res/values/strings.xml
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/obj/Debug/R.cs.flag
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/bin/Debug/Core.Android-Signed.apk
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/obj/Debug/uploadflags.txt
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/obj/Debug/Core.Android.dll
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/obj/Debug/Core.Android.dll.mdb
+/Users/gabriel/Projects/MPlayerRecruitment/Core.Android/bin/Debug/RestSharp.MonoDroid.dll

@@ -1,0 +1,6 @@
+/Users/gabriel/Projects/MPlayerRecruitment/Core.IOS/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/gabriel/Projects/MPlayerRecruitment/Core.IOS/bin/Debug/Core.IOS.dll.mdb
+/Users/gabriel/Projects/MPlayerRecruitment/Core.IOS/bin/Debug/Core.IOS.dll
+/Users/gabriel/Projects/MPlayerRecruitment/Core.IOS/obj/Debug/Core.IOS.dll
+/Users/gabriel/Projects/MPlayerRecruitment/Core.IOS/obj/Debug/Core.IOS.dll.mdb
+/Users/gabriel/Projects/MPlayerRecruitment/Core.IOS/bin/Debug/RestSharp.MonoTouch.dll

@@ -1,0 +1,6 @@
+/Users/gabriel/Projects/MPlayerRecruitmentTest/MPlayerRecruitmentTest.Core/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/gabriel/Projects/MPlayerRecruitmentTest/MPlayerRecruitmentTest.Core/bin/Debug/MPlayerRecruitmentTest.Core.dll.mdb
+/Users/gabriel/Projects/MPlayerRecruitmentTest/MPlayerRecruitmentTest.Core/bin/Debug/MPlayerRecruitmentTest.Core.dll
+/Users/gabriel/Projects/MPlayerRecruitmentTest/MPlayerRecruitmentTest.Core/obj/Debug/MPlayerRecruitmentTest.Core.dll
+/Users/gabriel/Projects/MPlayerRecruitmentTest/MPlayerRecruitmentTest.Core/obj/Debug/MPlayerRecruitmentTest.Core.dll.mdb
+/Users/gabriel/Projects/MPlayerRecruitmentTest/MPlayerRecruitmentTest.Core/bin/Debug/nunit.framework.dll
